@@ -1,0 +1,176 @@
+.box {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    min-height: 100vh; 
+    background-color: rgb(255, 255, 255);
+    padding: 20px; 
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow: hidden; 
+}
+
+
+.header{
+    background-color: rgb(236, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 1%;
+}
+
+.icono{
+    
+    margin: 1%;
+    padding: 1%;
+}
+
+.titulo{
+    
+    margin: 1%;
+    padding: 1%;
+}
+
+
+.botones{
+
+    display: flex;
+    flex-direction: row;
+    margin: .5%;
+    padding: 1%;
+}
+
+.debut{
+    display: flex;
+    
+    height: 60px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    background-color: rgb(248, 246, 246);
+    height:80%;
+    width: 80%;
+    border-radius: 9px;
+    border: 1px solid rgb(149, 149, 147);
+    transition: 300ms;
+}
+
+.but:hover{
+    transition: 300ms;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.634);
+
+}
+
+
+
+
+
+.page{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    display: flex;
+    margin: 1%;
+    justify-content: space-evenly;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 50%; 
+    height: auto;
+    margin: 1%;
+    padding: 20px;
+    text-align: center; 
+}
+
+.formulario p {
+    padding: 8px 0;
+    text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto; 
+}
+
+
+/*-----------------------------mios--------------------------------------*/
+
+    .mios{
+        background-color: rgb(241, 245, 241);;
+        margin: 1%;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartelito{
+        background-color: rgb(231, 231, 231);
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .cajas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin:20px;
+        background-color: rgb(231, 231, 231);
+        
+    }
+    .infocaja{
+        background-color: rgb(231, 231, 231);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 90%;
+        margin:20px;
+    }
+    .cajaboton{
+        background-color: rgb(231, 231, 231);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        margin:5px;
+    }
+    .imgc{
+        margin:5px;
+        width: 100px; /* Ajusta según el tamaño deseado */
+        height: 100px;
+        object-fit: cover; /* Recorta la imagen para llenar el espacio sin distorsión */
+        border-radius: 5px;
+    }
+
+
+
+
+@media (max-width: 768px) {
+    .formulario {
+        width: 90%;
+    }
+}

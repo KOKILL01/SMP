@@ -1,0 +1,134 @@
+/* Reestablecer márgenes y paddings por defecto */
+
+
+/* Estilo global del body */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía limpia y moderna */
+    background-color: #f4f4f9; /* Color de fondo claro */
+    color: #333; /* Color del texto en gris oscuro */
+}
+
+/* Encabezado fijo en la parte superior */
+.header {
+    
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.875);
+}
+.debut {
+    display: flex;
+    height: 60px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Para centrar todo el contenido vertical y horizontalmente, dejando espacio para el header */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: auto; /* Asegura que ocupe toda la altura de la ventana */
+}
+
+/* Estilo principal de la sección de detalles */
+.main {
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    width: auto;
+    text-align: center;
+}
+
+/* Contenedor para la imagen */
+.contenedorimagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Detalles del cartel */
+.detalle p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+
+.botones{
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bot{
+    margin: 1%;
+padding-left: 48%;
+}
+
+
+
+/* Estilo de las etiquetas de los párrafos */
+strong {
+    font-weight: bold;
+}
+
+/* Pie de página */
+.footer {
+    margin-top: 20px;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .detalle p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .detalle p {
+        font-size: 0.8rem;
+    }
+}
