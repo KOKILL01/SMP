@@ -1,0 +1,48 @@
+.box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 100vh; 
+    background-color: rgb(236, 235, 235);
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 40%;  
+    padding: 20px;
+    text-align: center; 
+}
+
+.formulario p {
+    padding: 8px 0;
+    text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto; 
+}
+
+.pregunta-seguridad {
+    background-color: #f3f3f3; 
+    padding: 10px;
+    border-left: 5px solid #007bff; 
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
